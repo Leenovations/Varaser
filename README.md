@@ -1,5 +1,7 @@
 # Varaser
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23684288.svg)](https://doi.org/10.5281/zenodo.23684288)
+
 Varaser erases germline variants from a BAM file by restoring the reference base at user-specified variant positions. Reads overlapping those positions are edited so that the sequence, CIGAR, and tags are consistent with the reference, which reduces the individual-identifying information in the BAM.
 
 ## Files
